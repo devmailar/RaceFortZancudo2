@@ -13,7 +13,7 @@ namespace RaceFortZancudo2.Client
         internal FlagGirl(string name, PedHash model, Vector3 spawn)
         {
             this.Name = name;
-            this.Ped = World.CreatePed(model, spawn, 82.49f);
+            this.Ped = World.CreatePed(model, spawn, 3.57f);
             this.Spawn = spawn;
 
             Debug.WriteLine($"^5[INFO] FlagGirl {this.Name} created.");
